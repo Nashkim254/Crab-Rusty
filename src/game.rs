@@ -18,7 +18,10 @@ pub fn run() {
             .expect("Failed to read line");
         println!(" Your guess is:{}", guess);
 
-        let guess: u32 = guess.trim().parse().unwrap();
+        let guess: u32 = match guess.trim().parse().unwrap(){
+            Ok(num) => num,
+            Err(_)=> continue,
+        };
 
         match guess.cmp(&i) {
             Ordering::Less => println!("Less guess"),
