@@ -23,7 +23,10 @@ pub fn run() {
         match guess.cmp(&i) {
             Ordering::Less => println!("Less guess"),
             Ordering::Greater => println!("Greater guess"),
-            Ordering::Equal => println!("You win"),
+            Ordering::Equal =>{
+                println!("You win");
+                break;
+            },
         }
     }
 }
