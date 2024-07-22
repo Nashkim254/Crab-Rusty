@@ -1,3 +1,5 @@
+use rand::Rng;
+
 pub fn run(){
     let name = "Nash";
     let mut age = 26;
