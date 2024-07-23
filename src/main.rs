@@ -1,13 +1,13 @@
 // mod print;
-// mod vars;
+mod vars;
 // mod types;
-mod algo;
-mod game;
+// mod algo;
+// mod game;
 fn main() {
    
     // print::run();
-    // types::run();
-    game::run();
+    vars::run();
+    // game::run();
   //   let nums: [i32; 5]  = [2,4,6,8,10];
   //   algo::sumnumbers(nums);
   // let s =  algo::reversestring("Hello");
