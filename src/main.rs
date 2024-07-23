@@ -3,7 +3,8 @@
 // mod iterate;
 // mod ownership;
 // mod slices;
-mod structs;
+// mod structs;
+mod enums;
 // mod types;
 // mod algo;
 // mod game;
@@ -11,7 +12,7 @@ fn main() {
     // print::run();
     // vars::run();
     // ownership::run();
-    structs::run();
+    enums::run();
     // game::run();
     //   let nums: [i32; 5]  = [2,4,6,8,10];
     //   algo::sumnumbers(nums);
