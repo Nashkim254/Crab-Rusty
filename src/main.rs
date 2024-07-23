@@ -1,14 +1,16 @@
 // mod print;
 // mod vars;
 // mod iterate;
-mod ownership;
+// mod ownership;
+mod slices;
 // mod types;
 // mod algo;
 // mod game;
 fn main() {
     // print::run();
     // vars::run();
-    ownership::run();
+    // ownership::run();
+    slices::run();
     // game::run();
     //   let nums: [i32; 5]  = [2,4,6,8,10];
     //   algo::sumnumbers(nums);
