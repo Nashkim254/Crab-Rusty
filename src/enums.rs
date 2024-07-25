@@ -20,7 +20,7 @@ struct IPAddr {
     addr: String,
 }
 pub fn run() {
-    println!("val {}", value_in_cents(Coin::Shilling(State::Ke)));
+    println!("val {}", value_in_cents(Coin::Shilling(State::KE)));
     // let localhost = IPAddrKind::IPV4(127,0,0,1);
 }
 
@@ -40,7 +40,7 @@ enum Coin {
 #[derive(Debug)]
 enum State {
     US,
-    Ke,
+    KE,
     EU,
     UK,
 }
