@@ -5,7 +5,9 @@
 // mod slices;
 // mod structs;
 // mod enums;
-mod collections;
+// mod collections;
+// mod erros;
+mod generics;
 // mod types;
 // mod algo;
 // mod game;
@@ -14,7 +16,9 @@ fn main() {
     // vars::run();
     // ownership::run();
     // enums::run();
-    collections::run();
+    // collections::run();
+    // erros::run();
+    generics::run();
     // game::run();
     //   let nums: [i32; 5]  = [2,4,6,8,10];
     //   algo::sumnumbers(nums);
