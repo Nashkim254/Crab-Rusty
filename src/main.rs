@@ -7,7 +7,8 @@
 // mod enums;
 // mod collections;
 // mod erros;
-mod generics;
+// mod generics;
+mod traits;
 // mod types;
 // mod algo;
 // mod game;
@@ -18,7 +19,7 @@ fn main() {
     // enums::run();
     // collections::run();
     // erros::run();
-    generics::run();
+    traits::run();
     // game::run();
     //   let nums: [i32; 5]  = [2,4,6,8,10];
     //   algo::sumnumbers(nums);
