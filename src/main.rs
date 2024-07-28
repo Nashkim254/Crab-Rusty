@@ -8,9 +8,10 @@
 // mod collections;
 // mod erros;
 // mod generics;
-mod traits;
 // mod types;
 // mod algo;
+// mod traits;
+mod lifetimes;
 // mod game;
 fn main() {
     // print::run();
@@ -19,7 +20,8 @@ fn main() {
     // enums::run();
     // collections::run();
     // erros::run();
-    traits::run();
+    // traits::run();
+    lifetimes::run();
     // game::run();
     //   let nums: [i32; 5]  = [2,4,6,8,10];
     //   algo::sumnumbers(nums);
