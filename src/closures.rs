@@ -4,6 +4,10 @@ use std::time::Duration;
 pub fn run() {
     let intensity = 10;
     let random = 7;
+    let x = 4;
+    let equal_to_x = |z| x == z;
+    let y = 4;
+    assert!(equal_to_x(y));
 
     generate_workout(intensity, random);
 }
