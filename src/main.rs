@@ -12,7 +12,8 @@
 // mod algo;
 // mod traits;
 // mod lifetimes;
-mod closures;
+// mod closures;
+mod iterators;
 // mod game;
 fn main() {
     // print::run();
@@ -22,7 +23,7 @@ fn main() {
     // collections::run();
     // erros::run();
     // traits::run();
-    closures::run();
+    iterators::run();
     // game::run();
     //   let nums: [i32; 5]  = [2,4,6,8,10];
     //   algo::sumnumbers(nums);
