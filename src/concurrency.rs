@@ -1,10 +1,11 @@
-use std::{sync::mpsc, thread, time::Duration};
+use std::{sync::mpsc,sync::Mutex, thread, time::Duration};
 
 pub fn run() {
-    spawn_thread();
-    vectors();
-    message_passing();
-    message_passing_with_timer();
+    // spawn_thread();
+    // vectors();
+    // message_passing();
+    // message_passing_with_timer();
+    mutex();
 }
 fn spawn_thread() {
     let handle = thread::spawn(|| {
@@ -69,4 +70,14 @@ fn message_passing_with_timer() {
     for received in rx {
         println!("Received message {}", received);
     }
+}
+
+
+fn mutex(){
+let x = Mutex::new(5);
+{
+    let mut num = x.lock().unwrap();
+    *num = 6;
+}
+println!("{:?}", x);
 }
