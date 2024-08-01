@@ -14,7 +14,8 @@
 // mod lifetimes;
 // mod closures;
 // mod iterators;
-mod smartpointers;
+// mod smartpointers;
+mod concurrency;
 // mod game;
 fn main() {
     // print::run();
@@ -24,7 +25,7 @@ fn main() {
     // collections::run();
     // erros::run();
     // traits::run();
-    smartpointers::run();
+    concurrency::run();
     // game::run();
     //   let nums: [i32; 5]  = [2,4,6,8,10];
     //   algo::sumnumbers(nums);
