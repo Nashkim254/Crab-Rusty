@@ -1,10 +1,10 @@
 use std::{sync::mpsc,sync::Mutex, thread, time::Duration};
 
 pub fn run() {
-    // spawn_thread();
-    // vectors();
-    // message_passing();
-    // message_passing_with_timer();
+    spawn_thread();
+    vectors();
+    message_passing();
+    message_passing_with_timer();
     mutex();
 }
 fn spawn_thread() {

@@ -55,3 +55,21 @@ fn value_in_cents(value: Coin) -> u8 {
         Coin::Pound => 15,
     }
 }
+#[derive(Debug)]
+enum Language {
+    Swahili,
+    English,
+    French,
+    Spanish,
+}
+
+fn languages() {
+    let language = Language::English;
+    match language {
+        Language::English => println!("Hello world"),
+        Language::Swahili => println!("Dunia habari"),
+        Language::French => println!("Bonjour de globe"),
+        // Language::Spanish => println!("Hello world"),
+        lang => println!("Not implemented: {:?}", lang),
+    }
+}
